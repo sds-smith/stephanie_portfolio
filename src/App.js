@@ -11,16 +11,6 @@ import ProjectDoc from './Routes/ProjectDoc';
 
 function App() {
 
-  // const ROUTES = {
-  //   "Brand, Brand Development" : <Brand/>,
-  //   "Content Strategies & Creation" : <ContentStrategy/>,
-  //   "Lead Generation & Media Plans" : <LeadGen/>,
-  //   "Social Strategy & Content" : <SocialStrategy/>,
-  //   "Product Marketing" : <CategoryPage/>,
-  //   "Website Design & Creative" : <WebsiteDesign/>,
-  //   "Analytics, SEO" : <Analytics/>
-  // };
-
   useEffect(() => {
     document.title = Headline;
   }, []);

@@ -11,12 +11,9 @@ import Stack from '@mui/material/Stack';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Tagline, Name, MainCallToAction, SecondaryCallToAction } from '../assets/data/customConstants';
 import Categories from '../assets/data/categories';
-
-import SSLogo from '../assets/images/SS_Name.png';
 
 const theme = createTheme();
 

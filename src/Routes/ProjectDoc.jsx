@@ -2,8 +2,6 @@ import {useState, useEffect, useContext} from 'react';
 import { useNavigate } from 'react-router-dom';
 import Paper from '@mui/material/Paper';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-// import { Document, Page } from 'react-pdf';
-// import "react-pdf/dist/esm/Page/TextLayer.css";
 import { ProjectContext } from '../context/ProjectContext';
 
 function ProjectDoc() {
@@ -23,13 +21,11 @@ function ProjectDoc() {
       if (!selectedProject) {
         navigate('/');
       };
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     },[]);
 
     return (
       <div style={{paddingTop: '80px', width: '100vw', display: 'flex', justifyContent: 'center'}}>
-        {/* <Paper
-          elevation={12}
-        > */}
           {
               selectedProject
                   ? <Document file={selectedProject.document} maxWidth='100vw' onLoadSuccess={onDocumentLoadSuccess} >
@@ -50,7 +46,6 @@ function ProjectDoc() {
                     </Document>
                   : null
           }
-        {/* </Paper> */}
       </div>
 
     )
