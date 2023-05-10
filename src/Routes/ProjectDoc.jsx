@@ -28,7 +28,7 @@ function ProjectDoc() {
       <div style={{paddingTop: '80px', width: '100vw', display: 'flex', justifyContent: 'center'}}>
           {
               selectedProject
-                  ? <Document file={selectedProject.document} maxWidth='100vw' onLoadSuccess={onDocumentLoadSuccess} >
+                  ? <Document file={selectedProject.documentUrl} maxWidth='100vw' onLoadSuccess={onDocumentLoadSuccess} >
                       {
                         docPages?.map(page => (
                             <Paper

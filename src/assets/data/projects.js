@@ -46,6 +46,7 @@ const projects = {
             description : "",
             image : IABrand_graphic,
             document : IABrandingGuide,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/IA-Branding-Guideline-Book-v1-a.pdf',
             path : "ia_branding_guidelines"
         },
     ],
@@ -63,6 +64,7 @@ const projects = {
             description : "",
             image : CarefirstBlog_graphic,
             document : CarefirstBlogDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/CarefirstBlogStrategy.pdf',
             path : "carefirst_blog_strategy"
         }, 
         {
@@ -72,6 +74,7 @@ const projects = {
             description : "",
             image : CarefirstPaid_graphic,
             document : CarefirstPaidDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/CareFirst_Paid_Linkedin_Research.pdf',
             path : "carefirst_paid_strategy"
         },
     ],
@@ -83,6 +86,7 @@ const projects = {
             description : "• Overall, the combined FEP/Congress campaign generated 9.7MM impressions, 21,107 clicks and 9,521 visits to the combined landing page, surpassing the 2014 campaign benchmark of 8,330 landing page visits",
             image : FEP_graphic,
             document : FEPCongress,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/FEPCongress.pdf',
             path : "fep_congressional_emp_direct_response_campaign"
         },
         {
@@ -92,6 +96,7 @@ const projects = {
             description : "",
             image : Dental_graphic,
             document : DentalDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/dentalhealth.pdf',
             path : "dental_health"
         },
     ],
@@ -103,6 +108,7 @@ const projects = {
             description : "",
             image : Atlantis_graphic,
             document : AtlantisDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/Atlantis-Cool-Branch_UX-Audit_Jan310_2018.pdf',
             path : "atlantis_us_audit"
         },
         {
@@ -112,6 +118,7 @@ const projects = {
             description : "",
             image : Cigna_graphic,
             document : CignaDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/Cigna_Med_Supp-TestingWireframeQuestions_vs3.pdf',
             path : "cigna_med_supply"
         },
         {
@@ -121,6 +128,7 @@ const projects = {
             description : "",
             image : InfoArch_graphic,
             document : InfoArchDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/Information_Architecture-revised-IA2.pdf',
             path : "information_architecture"
         },
     ],
@@ -132,6 +140,7 @@ const projects = {
             description : "",
             image : Alere_graphic,
             document : AlereDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/AlereHomeMonitoring.pdf',
             path : "alere_home_monitoring"
         },
     ],
@@ -143,6 +152,7 @@ const projects = {
             description : "",
             image : StylesCheatsheet_graphic,
             document : Styles_Cheatsheet,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/Styles_Cheatsheet.pdf',
             path : "css_styles_cheat_sheet"
         },
         {
@@ -152,6 +162,7 @@ const projects = {
             description : "",
             image : FiveDayWkflw_graphic,
             document : FiveDayWkflwDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/Five_Day_Workflow_Process_LeadGen_Updated _vs2.pdf',
             path : "five_day_workflow"
         },
         {
@@ -161,6 +172,7 @@ const projects = {
             description : "",
             image : Social_graphic,
             document : SocialStrategyDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/2016SocialStrategy_FINALDRAFT.pdf',
             path : "lead_gen_social"
         },
     ],
@@ -172,6 +184,7 @@ const projects = {
             description : "",
             image : HeritageHarbor_graphic,
             document : Heritage_Harbor_Detailed_Recommendations,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/HeritageHarbor_Detailed_Marketing_Recommendations.pdf',
             path : "hh_marketing_recommendations"
         },
         {
@@ -181,6 +194,7 @@ const projects = {
             description : "",
             image : HHDoublefold_graphic,
             document : HH_Community_Doublefold,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/HH-Community-Doublegatefold-V4.pdf',
             path : "hh_doublefold"
         },
     ],
@@ -192,6 +206,7 @@ const projects = {
             description : "",
             image : HHCustomerJourney_graphic,
             document : HHCustomerJourneyMap,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/HH_Customer_Journey_Map.pdf',
             path : "hh_customer_journey_map"
         },
         {
@@ -201,6 +216,7 @@ const projects = {
             description : "",
             image : MOEMHH_graphic,
             document : MOEMHHDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/MOEM_HeritageHarbor.pdf',
             path : "hh_moem"
         },
         {
@@ -210,6 +226,7 @@ const projects = {
             description : "",
             image : JFAMOEM_graphic,
             document : JFAMOEMDoc,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/JFA_MOEM_V5.pdf',
             path : "jfa_moem"
         },
     ],
@@ -221,6 +238,7 @@ const projects = {
             description : "",
             image : SRCLead_graphic,
             document : SRCLeadWkflw,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/SRC_Lead_Workflow.pdf',
             path : "src_lead_workflow"
         },
         {
@@ -230,6 +248,7 @@ const projects = {
             description : "",
             image : River_graphic,
             document : SRC_General_Nurture,
+            documentUrl : 'https://stephanie-smith-marketing.s3.amazonaws.com/SRC_General_Nurture.pdf',
             path : "src_general_nurture"
         },
     ],

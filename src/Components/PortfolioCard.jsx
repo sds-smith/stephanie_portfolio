@@ -1,5 +1,6 @@
 import { useContext } from 'react';
 import {Link as RouterLink} from 'react-router-dom';
+import { Link } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -31,7 +32,13 @@ function PortfolioCard({project}) {
                 </Typography>
               </CardContent>
               <CardActions>
-                <RouterLink to={project.path}><Button size="small" onClick={()=>selectProject(project)} >Learn More</Button></RouterLink>
+                <Link href={project.documentUrl} 
+                  target='_blank' rel='no-referrer'
+                >
+                  {/* <Button size="small" onClick={()=>selectProject(project)} > */}
+                    Learn More
+                  {/* </Button> */}
+                </Link>
               </CardActions>
             </Card>
         </div>
